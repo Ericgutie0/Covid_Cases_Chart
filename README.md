@@ -3,6 +3,8 @@ This program will chart the top 'x' countries with the most COVID-19 cases. The 
 
 You can run the program here at my trinket:   " https://trinket.io/library/trinkets/3e2d25b054 " .
 
+The zip in the repository is "main.py"
+
 The data the program plots is from: " https://raw.githubusercontent.com/pomber/covid19/master/docs/timeseries.json ". Thank you for that!
 Retrived with urllib.request
 
