@@ -60,10 +60,10 @@ while True:
   try:
     x = int(input('Enter an integer between 1 and 187: '))
     print('\n')
-    if(x <= 0 or x > 187):
+    while(x<= 0 or x > 187):
       print('Your input needs to be an integer between 1 and 187.')
-      x = int(input('Please, enter again: '))
       print('\n')
+      x = int(input("Try again and enter an integer between 1 and 187: "))
   except:
     print("That's not an integer...\n")
   else:
